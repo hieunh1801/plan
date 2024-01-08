@@ -4,7 +4,7 @@
 
 ```bash
 npm run build
-git add -f build/web
-git commit -m "new version"
-git subtree push --prefix build/web origin gh-pages
+git add -f dist
+git commit -m "v1.0"
+git subtree push --prefix dist origin gh-pages
 ```
