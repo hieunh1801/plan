@@ -44,7 +44,7 @@ const todos: Todo[] = [
 function App() {
   const current = new Date().getTime();
   return (
-    <div className="h-screen w-screen overflow-auto  p-4 flex flex-col gap-2">
+    <div className="h-screen w-screen overflow-auto  p-4 flex flex-col gap-2 pb-10">
       {todos.map((todo) => {
         const [start, end] = todo.time.split(" - ");
         const startTime = new Date(current).setHours(

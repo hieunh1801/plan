@@ -15,8 +15,11 @@ export default defineConfig({
 ```
 
 ```bash
+nvm use 20
 npm run build
+
+git add .
 git add -f dist
-git commit -m "v1.1"
+git commit -m "v1.2"
 git subtree push --prefix dist origin gh-pages
 ```
