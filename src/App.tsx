@@ -59,8 +59,8 @@ function App() {
         return (
           <div
             key={todo.id}
-            className="p-4 border-black border-2 relative"
-            style={{ backgroundColor: active ? "#f3f4f6" : "" }}
+            className="p-4 border-black border-2 relative "
+            style={{ backgroundColor: active ? "yellow" : "" }}
           >
             <p className="text-gray-500 text-sm">{todo.time}</p>
             <p>{todo.description}</p>
